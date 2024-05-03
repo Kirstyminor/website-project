@@ -1,0 +1,37 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100vx;
+    background-color: pink;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+.navlinks {
+    list-style: none;
+    display: flex;
+
+}
+
+.nav-item a {
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: blueviolet;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.nav-item:hover {
+    background-color: white;
+}
+
+.main-layout{
+    background-color: powderblue;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-size: 30px;
+    border: grey solid 10px;
+    box-shadow: rgb(58, 57, 57) 10px 10px;
+    padding: 2em;
+    margin: 60px;
+}
